@@ -1,1 +1,37 @@
+# NetBeans specific files
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+
+# IntelliJ IDEA - remove all traces
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven build output
 target/
+dependency-reduced-pom.xml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
